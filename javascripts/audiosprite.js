@@ -1,9 +1,19 @@
 function play() {
     var audio = document.getElementById('audio1');
-    if (audio.paused) {
+     {
         audio.play();
-    }else{
+     }
+} 
+
+function pause() {
+    var audio = document.getElementById('audio1');
+        {
         audio.pause();
-        audio.currentTime = 0
+       
     }
 }
+
+
+
+
+
