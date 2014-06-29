@@ -45,6 +45,17 @@ a small {
   display:block;
 }
 
+
+
+.profile {
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    border: 1px dashed #000;
+    width: 220px;
+    height: 220px;
+}
+
 .wrapper {
   width:860px;
   margin:0 auto;
