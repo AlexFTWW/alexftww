@@ -1,14 +1,19 @@
-window.addEventListener('touchstart', function() {
+function play() {
+    var audio = document.getElementById('audio1');
+     {
+        audio.play();
+     }
+} 
 
-	// create empty buffer
-	var buffer = myContext.createBuffer(1, 1, 22050);
-	var source = myContext.createBufferSource();
-	source.buffer = buffer;
+function pause() {
+    var audio = document.getElementById('audio1');
+        {
+        audio.pause();
+       
+    }
+}
 
-	// connect to output (your speakers)
-	source.connect(myContext.destination);
 
-	// play the file
-	source.noteOn(0);
 
-}, false);
+
+

@@ -674,7 +674,8 @@ bounce
 	
 	transform-origin: 50% 100%;
 	-ms-transform-origin: 50% 100%;
-	-webkit-transform-origin: 50% 100%; 	
+	-webkit-transform-origin: 50% 100%; 
+	
 }
 
 @keyframes bounce {
@@ -867,7 +868,10 @@ pullUp
 
 	transform-origin: 50% 100%;
 	-ms-transform-origin: 50% 100%;
-	-webkit-transform-origin: 50% 100%; 		
+	-webkit-transform-origin: 50% 100%; 	
+	
+	-webkit-animation-delay: 1s; /* Safari and Chrome */
+	 animation-delay: 1s;
 }
 
 @keyframes pullUp {
