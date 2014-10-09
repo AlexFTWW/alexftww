@@ -8,6 +8,10 @@
 /* Settings                                                                      */
 /*********************************************************************************/
 
+$("window").load(function() {
+  $("body").removeClass("preload");
+});
+
 	var _settings = {
 
 		// skelJS
