@@ -21,7 +21,9 @@
 		
 		<script>
 			$(document).ready(function(){
-				$("#header").delay(1000);
+				$("#header").removeClass("bounce");
+				$("#header").hide();
+				$("#header").delay(1000).addClass("bounce").show();
 			});
 		</script>
 
